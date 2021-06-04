@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>RoyalUI Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="./assets/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="./assets/vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" />
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="./assets/images/logo.svg" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="./assets/images/logo-mini.svg" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="ti-view-list"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="ti-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown mr-1">
+            <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+              <i class="ti-email mx-0"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                    <img src="./assets/images/faces/face4.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="item-content flex-grow">
+                  <h6 class="ellipsis font-weight-normal">David Grey
+                  </h6>
+                  <p class="font-weight-light small-text text-muted mb-0">
+                    The meeting is cancelled
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                    <img src="./assets/images/faces/face2.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="item-content flex-grow">
+                  <h6 class="ellipsis font-weight-normal">Tim Cook
+                  </h6>
+                  <p class="font-weight-light small-text text-muted mb-0">
+                    New product launch
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                    <img src="./assets/images/faces/face3.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="item-content flex-grow">
+                  <h6 class="ellipsis font-weight-normal"> Johnson
+                  </h6>
+                  <p class="font-weight-light small-text text-muted mb-0">
+                    Upcoming board meeting
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="ti-bell mx-0"></i>
+              <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                  <div class="item-icon bg-success">
+                    <i class="ti-info-alt mx-0"></i>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h6 class="font-weight-normal">Application Error</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Just now
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                  <div class="item-icon bg-warning">
+                    <i class="ti-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h6 class="font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                  <div class="item-icon bg-info">
+                    <i class="ti-user mx-0"></i>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h6 class="font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="./assets/images/faces/face28.jpg" alt="profile"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="ti-settings text-primary"></i>
+                Settings
+              </a>
+              <a class="dropdown-item">
+                <i class="ti-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="ti-view-list"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="d-flex">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav position-fixed" style="width:225px">
+            <li class="nav-item active">
+              <a class="nav-link" href="javascript:void(0)">
+                <i class="ti-shield menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <i class="ti-palette menu-icon"></i>
+                <span class="menu-title">UI Elements</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Buttons</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Typography</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">
+                <i class="ti-layout-list-post menu-icon"></i>
+                <span class="menu-title">Form elements</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">
+                <i class="ti-pie-chart menu-icon"></i>
+                <span class="menu-title">Charts</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">
+                <i class="ti-view-list-alt menu-icon"></i>
+                <span class="menu-title">Tables</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">
+                <i class="ti-star menu-icon"></i>
+                <span class="menu-title">Icons</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <i class="ti-user menu-icon"></i>
+                <span class="menu-title">User Pages</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="auth">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)"> Login </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)"> Login 1</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)"> Login 2</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)"> Login 3</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="javascript:void(0)"> Login 4</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">
+                <i class="ti-write menu-icon"></i>
+                <span class="menu-title">Documentation</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum vitae earum? Eius eveniet velit fugiat laboriosam distinctio eos accusamus placeat, ut eaque esse sed quae ducimus voluptatem saepe impedit recusandae vel! Natus, quis commodi? Cumque ratione quam voluptate accusamus similique maiores officiis ut ea inventore quae numquam ipsum eius, iste optio repudiandae perspiciatis asperiores provident distinctio molestias repellendus! Incidunt, aliquid adipisci. Voluptas, deserunt repellendus quod ut assumenda porro ipsam optio laborum exercitationem atque ad. Consectetur deserunt, impedit voluptatem eum dolorem iste accusantium veniam. Beatae nesciunt vero, esse excepturi a perferendis impedit in doloribus, quae nostrum sequi repellendus eos. Omnis, deserunt asperiores. Odio eius aperiam quas maxime exercitationem ducimus soluta libero beatae veritatis, nobis natus, placeat deleniti. Repudiandae totam aspernatur sunt commodi reiciendis. Est, debitis doloribus. Quos repellat odit accusantium magnam, ducimus commodi veritatis soluta officia? Ducimus temporibus corrupti veniam alias voluptas iste ipsa placeat a ab ad facilis qui culpa adipisci enim labore rerum ut optio quidem fugiat, mollitia esse? Modi nam earum corporis laudantium in cupiditate provident soluta fugiat? Ea, provident accusantium. Ducimus soluta minima officia provident excepturi totam dicta adipisci quo voluptatibus tenetur cumque sit veniam velit architecto odit, minus molestiae ullam cupiditate, labore voluptatem libero aperiam quia. Consequatur laborum tempora aliquam iste. Magni illo, quo consequuntur nulla atque vero quisquam sed ex dolorum dolore minima voluptas sunt iusto similique velit, et explicabo, tenetur quos ducimus! Amet, porro deserunt earum aliquam autem, doloremque ullam vel omnis tempora ratione sunt architecto ut? Magni voluptates fuga velit. Voluptate debitis vel illum vitae blanditiis inventore? Dolorum modi alias nam id laboriosam consequatur recusandae possimus eligendi eos commodi enim dolore doloremque earum veniam, dignissimos labore pariatur fugit ipsam ex impedit autem? Dignissimos consequuntur sequi voluptatibus temporibus quibusdam impedit numquam quas vero autem amet sapiente, adipisci ipsum fuga eaque! Hic ducimus sequi nesciunt voluptates facere reiciendis tenetur et, cumque possimus facilis consectetur ad quam nobis accusamus expedita in neque odio sunt sed. Perspiciatis voluptatibus deleniti quasi. Commodi laudantium nobis maiores. Doloremque similique cum porro dolore repudiandae, debitis voluptatibus, inventore iste incidunt quis ullam autem qui beatae a praesentium reprehenderit aliquam rerum delectus molestiae! Quia iusto itaque atque hic amet cum mollitia, voluptatum numquam repellat? Quas a beatae modi commodi rerum? Placeat fugiat quam tenetur cupiditate voluptates odit totam, laborum sequi hic quibusdam neque molestiae. Quis repellendus dicta nihil voluptatum suscipit quaerat numquam sed corporis ratione, possimus dolorem inventore odit quos amet! A saepe temporibus dolores, minus dolore nulla, id maiores quas dolorem et ducimus veniam, placeat omnis voluptates illum quae sed repellendus perspiciatis odio neque animi commodi. Possimus, dolore. Explicabo eius nostrum excepturi consequatur rerum vitae voluptatibus libero, ex eaque expedita quae et vero, officiis laboriosam! Ipsum aliquam perferendis deleniti id aliquid dolorum iste ad eligendi, est aperiam iusto doloribus excepturi veniam architecto dolore sapiente voluptatum modi. Iste doloremque temporibus ad! Ipsam nobis consequatur alias placeat minus id quasi harum numquam mollitia, assumenda magnam dolorem soluta hic nemo eum distinctio fugiat! Nam sed architecto reprehenderit necessitatibus, modi quaerat exercitationem, perspiciatis similique dolorem est temporibus nobis, maxime perferendis. Itaque, suscipit possimus ex fugit laboriosam est ipsam perferendis ab, perspiciatis accusamus odit quas similique maiores nulla eaque. Veniam inventore asperiores est sint impedit maiores qui possimus nemo quos aspernatur quasi, incidunt dolorum, amet eius? Dolor mollitia nam obcaecati ab laborum veniam quibusdam officia est, in sint culpa aliquid rem corrupti enim dolores maxime voluptatum eaque tempora aperiam ea corporis hic praesentium vitae! Accusamus ipsum facilis nobis labore excepturi, unde maxime laborum optio, asperiores, porro ducimus nemo quidem nesciunt. Autem eveniet eaque delectus nemo incidunt quia dicta voluptate quisquam voluptatem nam, quam odit qui ipsa deleniti, sunt voluptatum! Et, ipsam incidunt? Ipsam temporibus commodi, ipsum in placeat voluptates dolor animi quas quis quos quam vel, voluptate doloremque modi eum repudiandae sunt fugit voluptatum. Optio quas maiores sit minus ullam dolorem ea tenetur voluptates consequuntur quae nulla similique sint, ut ipsum nemo dicta odit atque quo sunt in repudiandae distinctio? Enim, omnis eligendi? Assumenda perferendis quo expedita in, fugiat laborum asperiores eaque officiis est sint doloribus facere nesciunt eos explicabo consectetur ipsa! Sed dicta sint ullam pariatur suscipit facilis est commodi placeat unde officia, fuga, excepturi nam eius, temporibus saepe quaerat ab. Deleniti velit animi reiciendis delectus dolore numquam expedita incidunt obcaecati error. Illo doloribus suscipit repellat a dicta quas consectetur doloremque? Sed, praesentium alias at quasi pariatur provident ratione distinctio illum recusandae molestias minus placeat nulla similique aspernatur fugit minima inventore voluptatibus? Consequatur, quidem deleniti rerum eos ad adipisci magnam est hic provident necessitatibus voluptatum sapiente vel quisquam doloremque labore facere itaque aut. Minima saepe placeat dolore, sapiente magni neque mollitia autem dolorem beatae totam tenetur velit perspiciatis doloremque sequi in tempore rem sed dolores accusamus, cumque inventore officia, voluptatibus quia iure. Quo natus asperiores reprehenderit minima iusto illo id doloribus numquam quos cum, aspernatur expedita quas repudiandae, nobis officia dolore? Corrupti cupiditate esse deserunt velit, saepe, in quis nisi consectetur sit illum blanditiis cumque reiciendis fuga perferendis perspiciatis nemo culpa quos magni officiis nesciunt tenetur. Quae doloremque, at enim doloribus voluptatibus error sit, consequuntur illo quis earum nulla officia vero culpa magnam! Laborum ab corrupti illo iste eligendi dolor earum commodi nostrum molestias facere inventore, ipsum non pariatur minima sit possimus animi. Minima quam excepturi facere nihil labore voluptas eligendi aliquam ullam in laborum rerum totam architecto eius necessitatibus facilis, voluptatibus laudantium. Nostrum amet repudiandae, minus suscipit itaque ab. Qui perspiciatis quis repellat expedita rem cum aliquam recusandae. Fugit hic dignissimos, illo sequi minima laboriosam molestias deserunt dolore assumenda eaque quae necessitatibus tempore. Commodi officia aliquam alias? Aut provident quia maxime quam corporis iure aspernatur ullam mollitia sapiente accusamus debitis cumque culpa, nihil ratione ipsum non ex cupiditate repudiandae, impedit amet officiis tempora, quidem in ipsam. Quaerat eaque, sint tenetur eveniet exercitationem illum rerum! Aut, at deleniti dicta ut reiciendis blanditiis dolorem tempore ab accusamus tempora hic? Impedit quasi, non praesentium quam inventore reprehenderit rerum asperiores dicta necessitatibus reiciendis laborum, porro maxime voluptatibus doloribus debitis quibusdam accusantium similique. Maxime totam laborum optio, quos nemo voluptates a vel quod asperiores officia enim vero possimus eligendi quia ducimus est nulla aliquam, ex voluptate iste! Deserunt quae enim officia voluptas, doloremque aspernatur sit totam accusantium repudiandae, ducimus necessitatibus cum dignissimos harum possimus ipsa quo, dolorem nisi quas ipsam ullam officiis! Quae qui quam exercitationem voluptate excepturi! Qui libero porro cumque veniam maiores eaque vel ad corrupti autem deleniti eveniet neque earum molestiae animi totam illum quos perferendis dignissimos voluptatum cum inventore, asperiores sed, voluptatibus alias? Ipsa pariatur quia ad aut perferendis inventore nesciunt nisi, quidem consectetur cumque? Tenetur obcaecati voluptas sit dolorem minus aspernatur iste aliquam inventore debitis? Optio asperiores sit, numquam soluta, autem voluptates ut atque sed corporis iusto eius nihil, iure sint aliquid voluptate maxime dolor voluptas minima ad! Dolorem nesciunt vero asperiores corporis beatae similique sit. Eligendi hic qui possimus consequuntur repudiandae veniam earum similique unde ipsum omnis, perferendis sit maiores sint odit delectus necessitatibus id quasi quae repellendus. Omnis minus suscipit enim consectetur doloremque, odio libero rerum impedit fugiat natus est deserunt dolore assumenda! Temporibus molestias facilis, dolore unde inventore quod vel nobis dolorum alias. Quas iste deleniti voluptatem ea animi ducimus corporis quae amet, labore tenetur velit sit, vel ut ratione, optio rerum aliquid. Est, alias nisi? Nesciunt provident nihil ipsa commodi iusto ullam. Harum repudiandae nulla labore, adipisci asperiores, consectetur facilis laborum, repellat molestiae omnis dolores incidunt excepturi. Voluptatem deleniti quis ducimus atque facilis consectetur ut doloremque fugit, eum, quas minus veniam unde pariatur vero corporis accusamus omnis laudantium, blanditiis aliquid quaerat voluptatum. Aliquid, ipsam cupiditate aspernatur incidunt tempora voluptatum dolorum quasi inventore officiis odit facere labore ad ab sequi cumque. Nam fugit, dolorum alias voluptatum cum dicta aut cumque esse quis nostrum deleniti accusamus, saepe sunt. Unde laboriosam possimus ipsam? Cumque tempora ducimus corporis blanditiis veniam. Suscipit maxime sequi incidunt, rem modi accusamus excepturi qui eum in placeat commodi dolorem! Sapiente nostrum dolore, dolorem quaerat aperiam dignissimos, impedit numquam repellat quae asperiores vitae ex praesentium! Quod, molestiae harum. Ratione deleniti dolore, adipisci architecto magni quam eaque natus similique modi nemo, repudiandae quos animi nulla reiciendis quasi voluptatibus amet quo cum nostrum nisi debitis qui vel deserunt et! Nesciunt cumque natus accusantium dignissimos commodi sint veritatis eligendi ipsam, atque harum, perspiciatis quas inventore mollitia reprehenderit, sunt rerum dicta aut praesentium officiis nam. Quod hic debitis maxime? Repellendus reiciendis nam illum, totam culpa facilis dignissimos dicta libero eaque nemo itaque non maiores voluptatum voluptatibus optio officiis, atque, voluptas ipsa ipsam eius necessitatibus dolor harum ullam? Ducimus ad tempora modi pariatur illo facilis minima aliquid illum sit. Quis mollitia laborum dicta, accusamus est quidem dolorem quos placeat dolorum iste iure sed provident officia ratione ad impedit, alias, quam tempora eos sequi? Quia, praesentium? Nobis, repellat totam impedit rerum magni doloremque tempore similique voluptatibus doloribus, placeat est laboriosam facere facilis maiores quod vero inventore ipsum nihil natus magnam! Fuga eius consequatur quo iure consequuntur quidem explicabo molestiae unde laudantium natus quisquam quis, cupiditate eum doloremque rem perferendis voluptate veritatis, vitae ad alias velit ut voluptas ex facere. Quod quibusdam facilis minus magnam quidem. Voluptatem ut doloremque, numquam cupiditate aut unde eligendi dicta error quae ad, tempora repellendus amet velit officiis exercitationem aliquam. Fugit iusto quia quis. Quis nobis, facere blanditiis tempora voluptatum maiores eius voluptatibus in vel, quos minus omnis aut, sed iusto accusantium dolores dolorem laboriosam voluptates autem corporis officiis? Optio explicabo eum, aspernatur quasi accusantium autem laudantium corporis velit ad voluptatem qui doloribus vero molestias illum facere sequi hic id et iste magni est odio! Doloremque pariatur ratione perspiciatis tempora asperiores ipsa quaerat obcaecati consequuntur porro, natus, autem harum voluptates deleniti quod blanditiis? Ratione illum nemo tempore aspernatur inventore. Ullam fuga debitis eos quod aperiam saepe voluptates maiores aspernatur sequi dolorum voluptatibus eius voluptas natus eum inventore magnam hic, ipsa beatae porro ex error? Eos nulla autem perspiciatis esse nam neque unde optio dolore iste corporis vel harum sunt reiciendis magni odio ipsa veniam, laboriosam explicabo aperiam nihil quae omnis. Tenetur iure voluptatem est error ullam natus quisquam corporis excepturi ratione, debitis incidunt distinctio impedit molestias vel a. Aspernatur explicabo ipsa cupiditate natus placeat. Corporis pariatur modi dolorem perferendis possimus sapiente consequatur doloribus, iste maxime. Eveniet, harum provident quia perspiciatis consequuntur ullam error, porro culpa aliquam eius praesentium nulla accusantium consequatur quaerat iste quis voluptatum non temporibus cumque voluptatibus. Reiciendis, nesciunt! Voluptatum obcaecati, ullam natus error eligendi unde nam pariatur, rem quaerat saepe exercitationem quidem adipisci distinctio corporis maiores iusto, earum quisquam enim suscipit magnam tempora nihil repudiandae omnis quibusdam. Quae, tempora, commodi ad sed nobis laboriosam architecto perferendis aliquid dolore cum reiciendis soluta placeat consectetur. Natus delectus facere repudiandae porro mollitia. Minus, cupiditate voluptates est atque quia commodi quo eaque cumque dicta perspiciatis vero facilis quisquam a ipsum vitae suscipit. Officiis suscipit aliquam sunt dicta cum quisquam amet fuga ipsum nam unde officia aperiam quis asperiores debitis harum reprehenderit quos ut quam tenetur sit odit, ea quod reiciendis. Ipsa aut in rerum neque magni praesentium suscipit quaerat fugit sit. Explicabo repudiandae eum amet saepe, inventore molestias recusandae enim eos quasi dolorum ducimus officiis consequatur animi sed, reprehenderit unde odio omnis! Omnis, nobis dolorem? Inventore laudantium architecto vitae distinctio dolores est alias soluta odio velit aperiam nostrum suscipit assumenda minus quas voluptates aliquam, quis modi. Officiis ab praesentium similique tenetur iste porro cupiditate cumque officia consequuntur laborum dolor quaerat nostrum ipsam magnam omnis, aliquid earum? Necessitatibus recusandae commodi, tempora sit dolorum quia amet, rem nulla aspernatur fugit, ad nobis perferendis ex nesciunt suscipit laudantium. Totam in, a vitae corporis rerum mollitia sit doloribus earum repellendus reiciendis sint culpa harum. Aut voluptas velit expedita distinctio fugit voluptatum voluptate suscipit delectus odio alias sed asperiores debitis accusantium, dignissimos dolor aliquid molestiae! Voluptates, perferendis officiis iusto atque facere eveniet explicabo? Quisquam in numquam iste mollitia? Deserunt impedit aliquid amet tempore ut! Libero, temporibus quidem ea aliquam fuga dolore enim minus at error illum tenetur in ipsa mollitia molestias neque maiores incidunt sunt. At, eos incidunt velit non libero, atque nam maiores expedita placeat fuga saepe.  
+          </div>
+        </div>
+        <!-- main-panel ends -->
+      </div>
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="./assets/vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <script src="./assets/vendors/chart.js/Chart.min.js"></script>
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="./assets/js/off-canvas.js"></script>
+  <script src="./assets/js/hoverable-collapse.js"></script>
+  <script src="./assets/js/template.js"></script>
+  <script src="./assets/js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="./assets/js/dashboard.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
+
